@@ -46,3 +46,14 @@ git commit -m "first commit"
 git remote add origin https://github.com/Pokabeep/test.git
 git config remote.origin.url git@github.com:Pokabeep/test.git
 git push -u origin master
+ssh -T git@github.com
+$git config remote.origin.url git@github.com:Pokabeep/test.git
+git config remote.origin.url git@github.com:Pokabeep/test.git
+git add testhub
+git add testhub.txt
+@git commit -am "Added text"
+git commit -am "Added text"
+git push origin master
+git add -A
+git commit -am "Added folders"
+git push origin master
