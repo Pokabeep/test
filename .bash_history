@@ -57,3 +57,8 @@ git push origin master
 git add -A
 git commit -am "Added folders"
 git push origin master
+./gitLogin.sh test
+./gitPush.sh "scripts"
+git add -A
+git commit -am "script"
+git push origin master
